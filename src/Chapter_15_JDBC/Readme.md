@@ -1,0 +1,1 @@
+provides the basics of working with databases in Java, including working with stored procedures and transactions.
