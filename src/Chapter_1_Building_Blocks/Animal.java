@@ -1,6 +1,15 @@
 package Chapter_1_Building_Blocks;
 
 
+/*
+    ORDER FOR DECLARING A CLASS
+    - package -> package abc;
+    - imports -> import.util.*;
+    - top-level(Class) type declaration -> public class C
+    -field declaration -> int value;
+    -methods declarations -> void method();
+
+ */
 
 /** Java class have two primary elements -> methods and fields = members.
  * @author Willyan Faria
