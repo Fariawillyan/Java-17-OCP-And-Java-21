@@ -32,4 +32,7 @@ public class Animal {
     public void setName(String name) {  //Other method, but void and is called a parameter where you pass a string parameter to be returned.
         this.name = name;
     }
+
+
+
 }
