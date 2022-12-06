@@ -6,7 +6,13 @@ package Chapter_1_Building_Blocks;
 
 public class Declaring_Variables {
 
+
     String zooName = "The Best Zoo";
+    int ola, oi, teste = 3; // multiple variable
+    final int y = 10; //final is equivalent to declaring constants in the other languages.
+
+    //ps: if variable is declared but never used, so it is not required to be initialized.
+
 
                                     //Reserved words
     /******************************************************************************************
@@ -23,5 +29,16 @@ public class Declaring_Variables {
      *****************************************************************************************/
 
     // Java use uppercase snake case to CONSTANTS and ENUM values. EXAMPLE_JAVA_HERE
+
+
+    // var tricky = "hello" // DOES NOT COMPILE ... type inference
+    public void whatTypeAmI(){
+        var name = "hello"; // type local variable
+        var size = 7;
+
+        //var = compiler to determine the type for you
+
+    }
+
 
 }
