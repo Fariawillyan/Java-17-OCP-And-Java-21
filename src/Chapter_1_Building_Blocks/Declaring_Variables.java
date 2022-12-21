@@ -28,7 +28,7 @@ public class Declaring_Variables {
      * transient           try                void               volatile           throws    *
      *****************************************************************************************/
 
-    // Java use uppercase snake case to CONSTANTS and ENUM values. EXAMPLE_JAVA_HERE
+    // Java use uppercase snake case to CONSTANTS(final) and ENUM values. EXAMPLE_JAVA_HERE
 
 
     // var tricky = "hello" // DOES NOT COMPILE ... type inference
@@ -37,6 +37,8 @@ public class Declaring_Variables {
         var size = 7;
 
         //var = compiler to determine the type for you
+
+        //var n = null //DOES NOT COMPILE
 
     }
 

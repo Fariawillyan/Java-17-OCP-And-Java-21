@@ -1,0 +1,1 @@
+Works with strings, StringBuilder, arrays, and, dates.
