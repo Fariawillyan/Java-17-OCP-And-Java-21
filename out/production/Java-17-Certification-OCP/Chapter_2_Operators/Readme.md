@@ -1,1 +1,0 @@
-explains operations with variables. it also talks about casting and the precedence of operators.
