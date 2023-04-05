@@ -53,7 +53,14 @@ public class Methods_examples {
         System.out.println(teste);
     }
 
+    //The compiler does not apply a default value to final variables. must receive a value...
 
+    /**
+     * Varargs
+     * A method can have at most one varargs parameter
+     * if a method contains a varargs parameter, it must be the last parameter in the list.
+
+     */
 
 }
 
