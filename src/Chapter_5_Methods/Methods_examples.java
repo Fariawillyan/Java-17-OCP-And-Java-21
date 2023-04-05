@@ -51,6 +51,11 @@ public class Methods_examples {
     Methods_examples teste = new Methods_examples();
      teste.zooAnimalCheckup(false);
         System.out.println(teste);
+        run(11,77);
+        walkdog(1);
+        walkdog(1,2);
+        walkdog(1,2,3);
+        walkdog(1, new int[]{4,5});
     }
 
     //The compiler does not apply a default value to final variables. must receive a value...
@@ -59,8 +64,35 @@ public class Methods_examples {
      * Varargs
      * A method can have at most one varargs parameter
      * if a method contains a varargs parameter, it must be the last parameter in the list.
-
      */
+
+
+    public void walk1(int... steps){}
+    public void walk2(int start, int... steps){}
+    //public void walk3(int...steps, int start){} // DOES NOT COMPILE
+    //public void walk4(int...start, int... steps){} // DOES NOT COMPILE
+
+
+    //exemplo
+    public static void walk11(int... steps){
+        int[] step2 = steps;    //not necessary, but shows steps is of type int[].
+        System.out.println(step2.length);
+    }
+
+    //acessing elements of a Varargs
+    public static void run(int... steps){
+        System.out.println(steps[1]);
+    }
+
+    //using Varargs with other methods parametes
+    public static void walkdog(int start, int... steps){
+        System.out.println(steps.length);
+    }
+
+
+
+
+
 
 }
 
