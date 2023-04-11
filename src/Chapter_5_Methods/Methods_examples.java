@@ -117,6 +117,18 @@ public class Methods_examples {
 
     }
 
+    //Static initializersPassing
+    private static final int NUM_SECONDS_PER_MINUTE;
+
+    private static final int NUM_MINUTES_PER_HOUR;
+
+    static {
+
+        NUM_SECONDS_PER_MINUTE = 60;
+        NUM_MINUTES_PER_HOUR = 60;
+
+    }
+
 
 }
 
