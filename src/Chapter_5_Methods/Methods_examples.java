@@ -129,6 +129,7 @@ public class Methods_examples {
 
     }
 
-
+    //methods final cannot be overridden.
+    //methods private cannot be overridden.
 }
 
