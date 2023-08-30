@@ -1,4 +1,4 @@
-package Outros;
+package Others.alghoritms;
 
 import java.util.ArrayList;
 import java.util.List;
