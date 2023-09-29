@@ -1,4 +1,4 @@
-package Chapter_1_Building_Blocks;
+package java17.Chapter_1_Building_Blocks;
 
 public class Garbage_Collection {
 

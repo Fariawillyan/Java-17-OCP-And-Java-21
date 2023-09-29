@@ -1,4 +1,4 @@
-package Chapter_1_Building_Blocks;
+package java17.Chapter_1_Building_Blocks;
 
 /**
  * A variable is name for a piece of memory that stores data. *

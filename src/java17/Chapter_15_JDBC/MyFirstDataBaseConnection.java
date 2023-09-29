@@ -1,4 +1,4 @@
-package Chapter_15_JDBC;
+package java17.Chapter_15_JDBC;
 
 
 //all database are in the package java.sql
