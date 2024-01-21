@@ -3,6 +3,7 @@ package java17.Chapter_8_Lambdas_and_Funcionals_Interfaces;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.Collectors;
 
 public class LambdasAndOthers {
     private String testObj;
@@ -31,7 +32,7 @@ public class LambdasAndOthers {
 
         if (!objTratadoList.isEmpty()) {
             //    objTratadoList.forEach(obj -> {
-            testThisObjAtomic.set(lambdasAndOthers.getTestObj() + " - " + objTratadoList);
+            testThisObjAtomic.set(lambdasAndOthers.getTestObj() + " - " + String.join(" - ", objTratadoList));
             //    });
         }
 
